@@ -1,0 +1,103 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.linked_sys.hns"
+        minSdkVersion 17
+        targetSdkVersion 25
+        versionCode 1
+        versionName '1'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable false
+        }
+    }
+}
+
+repositories {
+    maven { url "https://jitpack.io" }
+    maven { url "http://dl.bintray.com/novoda/maven" }
+    mavenCentral()
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    compile 'com.android.support:design:25.1.1'
+    compile 'com.android.support:recyclerview-v7:25.1.1'
+    compile 'com.android.support:cardview-v7:25.1.1'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.github.clans:fab:1.6.4'
+    compile 'com.afollestad.material-dialogs:core:0.8.6.1'
+    compile 'com.afollestad.material-dialogs:commons:0.8.6.1'
+    compile 'com.jenzz:materialpreference:1.3'
+    compile 'com.github.lzyzsd:circleprogress:1.1.0@aar'
+    compile 'com.github.CardinalNow:Android-CircleProgressIndicator:v0.2'
+    compile 'com.kingfisherphuoc:quick-action-dialog-fragment:1.1'
+    compile 'com.wdullaer:materialdatetimepicker:2.3.0'
+    compile 'io.github.eliseomartelli:simple-custom-tabs:1.4.3'
+    compile 'com.yarolegovich:mp:1.0.5'
+    compile 'com.yarolegovich:lovelyinput:1.0.2'
+    compile 'com.github.CardinalNow:Android-CircleProgressIndicator:v0.2'
+    compile 'com.codevscolor.materialpreference:mp:0.2.1'
+    compile 'com.android.support:preference-v7:25.1.1'
+    compile 'com.cleveroad:splittransformation:0.9.0'
+    compile 'com.afollestad.material-dialogs:core:0.9.0.1'
+    compile 'com.google.firebase:firebase-core:10.0.1'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    compile 'dev.dworks.libs:volleyplus:+'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup.okhttp:okhttp:2.+'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.+'
+    compile 'com.github.castorflex.smoothprogressbar:library-circular:1.0.0'
+    compile 'com.kelin.scrollablepanel:library:1.0.1'
+    compile 'com.heinrichreimersoftware:material-drawer:2.3.2'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.novoda:simple-chrome-custom-tabs:0.1.4'
+    compile 'com.jrummyapps:html-builder:1.0.0'
+    compile "me.leolin:ShortcutBadger:1.1.13@aar"
+    compile 'com.basgeekball:awesome-validation:2.0'
+    compile 'me.zhanghai.android.materialprogressbar:library:1.3.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0'
+    compile 'com.tenclouds:infinite-recyclerview:0.0.2'
+    compile 'com.github.myinnos:SlidingTabWithColorIcons:1.0'
+    compile 'com.github.tdscientist:ShelfView:v1.0'
+    compile 'com.github.IntruderShanky:scatter-piechart:1.0.0'
+    compile 'com.github.PhilJay:MPAndroidChart-Realm:v2.0.2@aar'
+    compile 'com.github.PhilJay:MPAndroidChart:v3.0.0'
+    compile 'com.github.bmarrdev:android-DecoView-charting:v1.2'
+    compile 'com.etiya.etiyabadgetablib:etiyabadgetablib:0.0.3'
+    compile 'com.github.halilozercan:BetterVideoPlayer:1.0.0'
+    compile 'morxander.zaman:Zaman:1.0.0'
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.7@aar') {
+        transitive = true;
+    }
+    compile 'com.github.matthiasrobbers:shortbread:1.0.1'
+    annotationProcessor 'com.github.matthiasrobbers:shortbread-compiler:1.0.1'
+    compile 'com.instabug.library:instabug:4.0.10'
+}
+apply plugin: 'com.google.gms.google-services'

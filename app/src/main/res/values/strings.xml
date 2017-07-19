@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مدارس الأحساء الأهلية</string>
+
+    <!--Login Screen-->
+    <string name="txt_email">البريد الالكتروني</string>
+    <string name="txt_password">كلمة المرور</string>
+    <string name="action_sign_in">تسجيل الدخول</string>
+    <string name="action_forget_password">نسيت كلمة المرور</string>
+    <string name="txt_lang">اللغة</string>
+    <string name="logo_desc">school_logo</string>
+    <string name="login_error">خطأ</string>
+    <string name="login_error_msg">أدخل البريد الالكتروني وكلمة المرور</string>
+    <string name="login_failed_msg">خطأ في البريد الالكتروني او كلمة المرور</string>
+    <string name="login_positive_btn">تم</string>
+
+    <!--Forget Password Screen-->
+    <string name="title_forget_password">نسيت كلمة المرور</string>
+    <string name="action_get_code">استعادة كلمة المرور</string>
+    <string name="new_password_hint">إدخال رمز الأمان</string>
+    <string name="new_password_hint2">أدخل الرمز الذي أرسلناه على البريد الالكتروني</string>
+    <string name="txt_code">الرمــز</string>
+    <string name="txt_new_password">كلمة المرور الجديدة</string>
+    <string name="txt_confirm_new_password">تأكيد كلمة المرور الجديدة</string>
+    <string name="action_change_password">إعادة تعيين كلمة المرور</string>
+
+    <!--Main Screen-->
+    <string name="txt_header_info1">اسم المدرسة</string>
+    <string name="txt_header_info2">اسم المستخدم</string>
+    <string name="menu_desc">Nav</string>
+
+    <!--Navigation Menu-->
+    <string name="txt_header">مرحبا</string>
+    <string name="nav_home">لوحة التحكم</string>
+    <string name="nav_inbox">البريد الداخلي</string>
+    <string name="nav_tasks">المهام</string>
+    <string name="nav_terms">بيانات الفصول الدراسية</string>
+    <string name="nav_teacher">بيانات المدرسين</string>
+    <string name="nav_school">بيانات المدرسة</string>
+    <string name="nav_classes">فصولي</string>
+    <string name="nav_e_learning">الدروس الالكترونية</string>
+    <string name="nav_week_plan">الخطة الاسبوعية</string>
+    <string name="nav_questions">بنك الاسئلة</string>
+    <string name="nav_settings">الاعدادات</string>
+    <string name="nav_help">Help &amp; Support</string>
+    <string name="nav_logout">تسجيل الخروج</string>
+    <string name="logout_title">تسجيل الخروج</string>
+    <string name="logout_msg">هل انت متأكد؟</string>
+    <string name="logout_positive_btn">موافق</string>
+    <string name="logout_negative_btn">إلغاء</string>
+    <string name="rate">قيمنا</string>
+
+    <!--parent navigation-->
+    <string name="nav_add_son">إضافة إبن</string>
+    <string name="nav_time_table">جدول الحصص</string>
+    <string name="nav_ranking">الترتيب</string>
+
+    <!--Settings Screen-->
+    <string name="title_activity_settings">الإعدادات</string>
+    <string name="lang_summary">اختار لغتك</string>
+    <string name="txt_edit_profile">تعديل الصفحة الشخصية</string>
+
+    <!--Tabs-->
+    <string name="tab1">الرسائل</string>
+    <string name="tab2">المهام</string>
+    <string name="tab3">المهارات</string>
+    <string name="tab4">الغياب</string>
+    <string name="tab5">مخالفات السلوك</string>
+    <string name="tab6">النشاط</string>
+
+    <!--Messages Fragment-->
+    <string name="txt_new_messages">رسائل جديدة</string>
+    <string name="txt_cur_messages">اجمالي الرسائل</string>
+
+    <!--Tasks Fragment-->
+    <string name="txt_new_tasks">مهام جديدة</string>
+    <string name="txt_cur_tasks">اجمالي المهام</string>
+
+    <!--inbox screen-->
+    <string name="title_activity_inbox">البريد الداخلي</string>
+    <string name="inbox_tab">الوارد</string>
+    <string name="sent_tab">الصادر</string>
+    <string name="trash_tab">سلة المهملات</string>
+    <string name="txt_private_message">إنشاء رسالة خاصة</string>
+    <string name="txt_group_message">إنشاء رسالة جماعية</string>
+    <string name="txt_new_message">إنشاء رسالة جديدة</string>
+
+    <!--Edit Profile-->
+    <string name="title_activity_edit_profile">تعديل الصفحة الشخصية</string>
+
+    <string name="title_activity_help">Help &amp; Support</string>
+    <string name="title_activity_new_msg">الرسائل الجديدة</string>
+    <string name="title_activity_new_tasks">المهام الجديدة</string>
+
+    <string name="txt_id">الرجاء ادخال رقم هوية الطالب</string>
+
+    <string name="title_activity_profile">الملف الشخصي</string>
+
+    <!--profile-->
+    <string name="txt_dob">تاريخ الميلاد</string>
+    <string name="txt_nationalID">رقم الهوية</string>
+    <string name="btn_edit">تعديل</string>
+
+    <!--week plane-->
+    <string name="txt_title">الحصة/اليوم</string>
+
+    <!--add son-->
+    <string name="txt_add_success">تم بنجاح</string>
+    <string name="txt_add_fail">الطالب الذي ادخلته غير موجود</string>
+    <string name="txt_add_has_parent">الطالب الذي ادخلته لديه ولي امر بالفعل</string>
+    <string name="txt_add_already_added">الطالب الذي ادخلته مسجل لديك</string>
+
+    <string name="txt_add_son_error">الرجاء ادخال رقم الهوية للطالب</string>
+
+    <string name="txt_toast">جاري تطوير الخاصية</string>
+    <string name="txt_msg_hint">رســائل جديدة</string>
+    <string name="txt_tasks_hint">مهــام جديدة</string>
+    <string name="txt_register">إنشاء حساب ولي امر جديد</string>
+
+    <string name="txt_subject">الموضوع</string>
+    <string name="txt_homework">الواجب</string>
+    <string name="txt_status">انجز؟</string>
+    <string name="txt_teacher_note">ملاحظات المعلم</string>
+    <string name="txt_parent_note">ملاحظات ولي الأمر</string>
+    <string name="txt_solved">أنجز</string>
+    <string name="txt_not_solved">لم ينجز</string>
+    <string name="txt_plan_content_header">تفاصيل الخطة الأسبوعية</string>
+    <string name="txt_add_comment">اضافة ملاحظة</string>
+
+    <string name="txt_curr_week">الاســبوع الحالي</string>
+
+    <!--settings-->
+    <string name="restart_app_title">طلب إعادة تشغيل!</string>
+    <string name="restart_app_content">سيتم إعادة تشغيل التطبيق. هل أنت متأكد أنك تريد إغلاق التطبيق؟</string>
+    <string name="positive_restart">نعم</string>
+    <string name="negative_restart">لا</string>
+
+    <string name="mark_unread">Messages marked as unread</string>
+    <string name="txt_done">تم</string>
+    <string name="txt_msg_to">إلى</string>
+    <string name="txt_msg_cc">نسخة إلى</string>
+    <string name="txt_msg_subject">العنوان</string>
+    <string name="txt_msg_body">الموضوع</string>
+
+    <string name="txt_manager">مدير المدرسة</string>
+    <string name="txt_assistant">وكيل المدرسة</string>
+    <string name="txt_guide">المرشد الطلابي</string>
+    <string name="txt_parent">ولي الأمر</string>
+    <string name="txt_student">الطالب</string>
+
+    <string name="txt_reply">رد</string>
+    <string name="txt_forward">إعادة توجيه</string>
+    <string name="txt_new_mail">رسالة جديدة</string>
+
+    <string name="txt_private_msg">إنشـاء رسـالة</string>
+    <string name="txt_group_msg">إنشاء رسالة جماعية</string>
+
+    <string name="passwordCannotBeEmpty">الرجاء إدخال كلمة المرور!</string>
+    <string name="invalidemailformat">الرجاء إدخال بريد إلكتروني صحيح!</string>
+
+    <string name="txt_choose_stage">الرجاء إختيار صف</string>
+    <string name="txt_choose_class">الرجاء اختيار فصل</string>
+    <string name="txt_choose_student">الرجاء اختيار طالب</string>
+    <string name="txt_choose_teacher">الرجاء اختيار مدرس</string>
+
+    <array name="private_msg_list">
+        <item>مدرس</item>
+        <item>طالب</item>
+    </array>
+
+    <string name="send_msg_error_no_receiver">الرجاء إختيار طالب او ولي امر او كلاهما</string>
+    <string name="send_msg_error_no_subject">الرجاء إدخال عنوان</string>
+    <string name="send_msg_error_no_body">الرجاء إدخال موضوع</string>
+
+    <string name="no_data">لا يوجد بيانات!</string>
+
+    <string name="txt_reply_prefix">رد: </string>
+    <string name="txt_forward_prefix">إعادة توجيه: </string>
+
+    <string name="txt_navigate_new_app1">يوجد تطبيق جديد على متجر جوجل</string>
+    <string name="txt_navigate_new_app2">الرجاء الوصول الى التطبيق الجديد من الاسفل وتحميله</string>
+    <string name="txt_navigate_new_app3">شكــرا</string>
+    <string name="btn_navigate_new_app">الوصول للتطبيق الجديد</string>
+
+    <string name="drawer_open">Menu open</string>
+    <string name="drawer_close">Menu closed</string>
+
+    <string name="action_search">بحث</string>
+    <string name="action_delete">حذف</string>
+
+    <string name="txt_e_learn">الدروس الالكترونية</string>
+    <string name="txt_e_library">المكتبة الالكترونية</string>
+
+    <string name="url_smashing_android_ui">http://3.bp.blogspot.com/-aDUhP55KerE/UGbxmCkyKOI/AAAAAAAAKM8/Ms7Hs6Ln524/s1600/cover.png</string>
+    <string name="url_android_app_dev_for_dummies">https://raw.githubusercontent.com/emmby/android-for-dummies-v3/master/assets/book-cover.png</string>
+    <string name="url_beginning_android">http://eurodroid.com/pics/beginning_android_book.jpg</string>
+    <string name="url_professional_android_programming">http://devproconnections.com/site-files/devproconnections.com/files/uploads/2014/06/Riley%20DCM1061%20Pro_Android_book_cover.jpg</string>
+    <string name="url_android_programming_pshing_the_limits">http://whatpixel.com/images/2016/08/android-programming-pushing-the-limits.jpg</string>
+    <string name="url_100_q_and_a">http://www.lopez-manas.com/wp-content/uploads/2015/07/cover-Kopie-212x300.png</string>
+    <string name="url_android_programming_for_beginners">https://www.packtpub.com/sites/default/files/9781785883262.png</string>
+    <string name="url_android_programming">http://www.informit.com/ShowCover.aspx?isbn=0672336286</string>
+    <string name="title_smashing_android_ui">SMASHING Android UI</string>
+    <string name="title_android_app_dev_for_dummies">Android App Development for DUMMIES</string>
+    <string name="title_beginning_android">Beginning Android</string>
+    <string name="title_professional_android_programming">Professional Android Programming</string>
+    <string name="title_android_programming_pshing_the_limits">ANDROID PROGRAMMING PUSHING THE LIMITS</string>
+    <string name="title_100_q_and_a"><![CDATA[100 Questions & Answer]]></string>
+    <string name="title_android_programming_for_beginners">Android Programming for Beginners</string>
+    <string name="title_android_programming">Android Programming</string>
+
+    <string name="no_connection">خطأ في التحميل</string>
+    <string name="no_connection_title">خطأ</string>
+    <string name="settings_button_text">الذهاب للاعدادات</string>
+    <string name="cancel_button_text">إلغاء</string>
+
+    <string name="txt_off_notifications">كتم الإشعارات</string>
+    <string name="txt_notifications">الإشعارات</string>
+
+    <string name="txt_skills_100">المتقنة ١٠٠ ٪</string>
+    <string name="txt_skills_90_100">متقنة من ٩٠ ٪ الى ١٠٠ ٪</string>
+    <string name="txt_skills_80_90">متقنة من ٨٠ ٪ الى ٩٠ ٪</string>
+    <string name="txt_skills_80">متقنة أقل من ٨٠ ٪</string>
+
+    <string name="delete_msg_title">حذف الرسالة</string>
+    <string name="delete_msg_message">هل انت متأكد من حذف هذه الرسالة وتحويلها الى سلة المهملات؟</string>
+    <string name="delete_from_trash_message">سيتم حذف الرسالة نهائيا.. هل انت متأكد؟</string>
+
+    <string name="txt_no_data">لا يوجد بيانات في هذه الصفحة!!</string>
+
+
+</resources>

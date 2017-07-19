@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sleep_quality_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <!--TOTAL-->
+    <ProgressBar
+        android:id="@+id/total_msg_count"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:indeterminate="false"
+        android:layoutDirection="ltr"
+        android:max="10"
+        android:progress="10"
+        android:progressDrawable="@drawable/progress_background_tablet" />
+
+    <!--NEW-->
+    <ProgressBar
+        android:id="@+id/msg_count"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:indeterminate="false"
+        android:layoutDirection="ltr"
+        android:max="100"
+        android:progressDrawable="@drawable/progress_foreground_tablet"
+        android:rotation="-90" />
+
+    <!--TEXT-->
+    <LinearLayout
+        android:id="@+id/btn_new_msgs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--# OF NEW -->
+        <TextView
+            android:id="@+id/txt_new_messages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+        <!--LABEL-->
+        <TextView
+            android:id="@+id/txt_cur_messages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/txt_msg_hint"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</RelativeLayout>

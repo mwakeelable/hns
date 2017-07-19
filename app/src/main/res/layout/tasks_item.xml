@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/task_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/icon_container"-->
+        <!--android:layout_width="@dimen/icon_width_height"-->
+        <!--android:layout_height="@dimen/icon_width_height"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/icon_front"-->
+            <!--android:layout_width="@dimen/icon_width_height"-->
+            <!--android:layout_height="@dimen/icon_width_height">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/icon_profile"-->
+                <!--android:layout_width="@dimen/icon_width_height"-->
+                <!--android:layout_height="@dimen/icon_width_height"-->
+                <!--android:src="@drawable/bg_circle" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/icon_text"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:textSize="22sp" />-->
+        <!--</RelativeLayout>-->
+    <!--</RelativeLayout>-->
+
+    <TextView
+        android:id="@+id/txt_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="status"
+        android:textColor="@color/timestamp"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/task_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:layout_toLeftOf="@+id/txt_status"
+        android:layout_toStartOf="@+id/txt_status">
+        <!--android:paddingEnd="@dimen/padding_list_row"-->
+        <!--android:paddingLeft="72dp"-->
+        <!--android:paddingRight="@dimen/padding_list_row"-->
+        <!--android:paddingStart="72dp"-->
+
+        <TextView
+            android:id="@+id/txt_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="subject"
+            android:textColor="@color/from"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_homework"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/txt_subject"
+            android:text="Homework"
+            android:textColor="@color/subject"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

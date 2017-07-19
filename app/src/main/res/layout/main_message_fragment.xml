@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr">
+
+    <in.myinnos.customimagetablayout.ChangeColorTab
+        android:id="@+id/tabChangeColorTab"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="?attr/colorPrimary">
+
+        <in.myinnos.customimagetablayout.ChangeColorItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="8dp"
+            tab:item_icon="@drawable/ic_inbox_black_24dp"
+            tab:item_icon_color="@color/colorPrimaryDark"
+            tab:item_tab_color="@color/colorPrimary"
+            tab:item_tab_position="bottom"
+            tab:item_text="@string/inbox_tab"
+            tab:item_text_color="@color/colorPrimaryDark"
+            tab:item_text_size="14sp" />
+
+        <in.myinnos.customimagetablayout.ChangeColorItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="8dp"
+            tab:item_icon="@drawable/ic_send_black_24dp"
+            tab:item_icon_color="@color/colorPrimaryDark"
+            tab:item_tab_color="@color/colorPrimary"
+            tab:item_tab_position="bottom"
+            tab:item_text="@string/sent_tab"
+            tab:item_text_color="@color/colorPrimaryDark"
+            tab:item_text_size="14sp" />
+
+        <in.myinnos.customimagetablayout.ChangeColorItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="8dp"
+            tab:item_icon="@drawable/ic_delete_black_24dp"
+            tab:item_icon_color="@color/colorPrimaryDark"
+            tab:item_tab_color="@color/colorPrimary"
+            tab:item_tab_position="bottom"
+            tab:item_text="@string/trash_tab"
+            tab:item_text_color="@color/colorPrimaryDark"
+            tab:item_text_size="14sp"
+            />
+
+
+    </in.myinnos.customimagetablayout.ChangeColorTab>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabChangeColorTab"
+        android:layoutDirection="locale"/>
+</RelativeLayout>

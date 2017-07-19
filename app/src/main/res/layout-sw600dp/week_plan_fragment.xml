@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--header-->
+    <LinearLayout
+        android:id="@+id/head_container"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/background_blue_darker"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_week_plan"
+            android:textColor="@color/White"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <!--spinner-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <!--divider-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/background_blue_lighter"/>
+
+    <!--table-->
+    <com.kelin.scrollablepanel.library.ScrollablePanel
+        android:id="@+id/week_plan_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr" />
+
+    <!--current week-->
+    <LinearLayout
+        android:id="@+id/btn_curr_week"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/round_btn"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:textSize="22sp"
+            android:text="@string/txt_curr_week"/>
+
+    </LinearLayout>
+
+</LinearLayout>

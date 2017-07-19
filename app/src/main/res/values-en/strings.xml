@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hasa National Schools</string>
+
+    <!--Login Screen-->
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_forget_password">Forget Password</string>
+    <string name="txt_lang">Language</string>
+    <string name="logo_desc">school_logo</string>
+    <string name="login_error">Error</string>
+    <string name="login_error_msg">Please Enter Email and Password</string>
+    <string name="login_failed_msg">Invalid Email or Password</string>
+    <string name="login_positive_btn">OK</string>
+
+    <!--Forget Password Screen-->
+    <string name="title_forget_password">Forget Password</string>
+    <string name="action_get_code">Retrieve Password</string>
+    <string name="new_password_hint">ENTER CODE</string>
+    <string name="new_password_hint2">Please enter code that sent to your mail</string>
+    <string name="txt_code">Code</string>
+    <string name="txt_new_password">New Password</string>
+    <string name="txt_confirm_new_password">Confirm New Password</string>
+    <string name="action_change_password">Submit New Password</string>
+
+    <!--Main Screen-->
+    <string name="txt_header_info1">School Name</string>
+    <string name="txt_header_info2">Username</string>
+    <string name="menu_desc">Nav</string>
+
+    <!--Navigation Menu-->
+    <string name="txt_header">Welcome</string>
+    <string name="nav_home">Dashboard</string>
+    <string name="nav_inbox">Messages</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_terms">Terms</string>
+    <string name="nav_teacher">Teachers</string>
+    <string name="nav_school">School</string>
+    <string name="nav_classes">My Classes</string>
+    <string name="nav_e_learning">E-Learning</string>
+    <string name="nav_week_plan">Week Plan</string>
+    <string name="nav_questions">Questions</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_help">Help &amp; Support</string>
+    <string name="nav_logout">Logout</string>
+    <string name="logout_title">LOGOUT!</string>
+    <string name="logout_msg">Are you sure?</string>
+    <string name="logout_positive_btn">OK</string>
+    <string name="logout_negative_btn">Cancel</string>
+    <string name="rate">Rate us</string>
+
+    <!--parent navigation-->
+    <string name="nav_add_son">Add Son</string>
+    <string name="nav_time_table">Time Table</string>
+    <string name="nav_ranking">Ranking</string>
+
+    <!--Settings Screen-->
+    <string name="title_activity_settings">Settings</string>
+    <string name="lang_summary">Select your language</string>
+    <string name="txt_edit_profile">Edit Profile</string>
+
+
+    <!--Tabs-->
+    <string name="tab1">Messages</string>
+    <string name="tab2">Tasks</string>
+    <string name="tab3">Skills</string>
+    <string name="tab4">Absence</string>
+    <string name="tab5">Behavior</string>
+    <string name="tab6">Activities</string>
+
+    <!--Messages Fragment-->
+    <string name="txt_new_messages">New</string>
+    <string name="txt_cur_messages">Messages</string>
+
+    <!--Tasks Fragment-->
+    <string name="txt_new_tasks">New</string>
+    <string name="txt_cur_tasks">Tasks</string>
+
+    <!--inbox screen-->
+    <string name="title_activity_inbox">Messages</string>
+    <string name="inbox_tab">Inbox</string>
+    <string name="sent_tab">Sent</string>
+    <string name="trash_tab">Bin</string>
+    <string name="txt_private_message">Private Message</string>
+    <string name="txt_group_message">Group Message</string>
+    <string name="txt_new_message">Create New Message</string>
+
+    <!--Edit Profile-->
+    <string name="title_activity_edit_profile">Edit Profile</string>
+
+    <string name="title_activity_help">Help &amp; Support</string>
+
+    <string name="title_activity_new_msg">New Messages</string>
+    <string name="title_activity_new_tasks">New Tasks</string>
+
+    <string name="txt_id">Enter Student ID</string>
+
+    <string name="title_activity_profile">Profile</string>
+
+    <!--profile-->
+    <string name="txt_dob">Date Of Birth</string>
+    <string name="txt_nationalID">National ID</string>
+    <string name="btn_edit">Edit</string>
+
+    <!--week plane-->
+    <string name="txt_title">DAY/LEC</string>
+
+    <!--add son-->
+    <string name="txt_add_success">Done Successful</string>
+    <string name="txt_add_fail">Student you entered not exist</string>
+    <string name="txt_add_has_parent">Student you entered has parent</string>
+    <string name="txt_add_already_added">Student already added</string>
+
+    <string name="txt_add_son_error">Please insert student ID</string>
+
+    <string name="txt_toast">Working on this feature</string>
+    <string name="txt_msg_hint">New Messages</string>
+    <string name="txt_tasks_hint">New Tasks</string>
+
+    <string name="txt_register">Register New Parent Account</string>
+
+    <string name="txt_subject">Subject</string>
+    <string name="txt_homework">Homework</string>
+    <string name="txt_status">Accomplished?</string>
+    <string name="txt_teacher_note">Teacher Note</string>
+    <string name="txt_parent_note">Parent Note</string>
+    <string name="txt_solved">Accomplished</string>
+    <string name="txt_not_solved">Not Accomplished</string>
+    <string name="txt_curr_week">Current Week</string>
+    <string name="txt_plan_content_header">Week Plan Details</string>
+    <string name="txt_add_comment">Add Note</string>
+
+    <!--settings-->
+    <string name="restart_app_title">Restart Application!</string>
+    <string name="restart_app_content">This requires restarting the application. Are you sure you want to close the app now?</string>
+    <string name="positive_restart">YES</string>
+    <string name="negative_restart">NO</string>
+
+    <string name="mark_unread">Messages marked as unread</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_msg_to">To</string>
+    <string name="txt_msg_cc">Cc</string>
+    <string name="txt_msg_subject">Subject</string>
+    <string name="txt_msg_body">Compose Message</string>
+
+
+    <string name="txt_manager">Manager</string>
+    <string name="txt_assistant">Assistant Manager</string>
+    <string name="txt_guide">Student Guide</string>
+    <string name="txt_parent">Parent</string>
+    <string name="txt_student">Student</string>
+
+    <string name="txt_reply">Reply</string>
+    <string name="txt_forward">Forward</string>
+    <string name="txt_new_mail">New Message</string>
+
+    <string name="txt_private_msg">New Message</string>
+    <string name="txt_group_msg">New Group Message</string>
+
+    <string name="passwordCannotBeEmpty">Password can not be left empty!</string>
+    <string name="invalidemailformat">Invalid email format!</string>
+
+    <string name="txt_choose_stage">Please choose stage</string>
+    <string name="txt_choose_class">Please choose class</string>
+    <string name="txt_choose_student">Please choose student</string>
+    <string name="txt_choose_teacher">Please choose teacher</string>
+    <array name="private_msg_list">
+        <item>Teacher</item>
+        <item>Student</item>
+    </array>
+
+    <string name="send_msg_error_no_receiver">Please choose either student or parent or both of them</string>
+    <string name="send_msg_error_no_subject">Please Enter subject</string>
+    <string name="send_msg_error_no_body">Please Enter body</string>
+
+    <string name="no_data">No Data!</string>
+
+    <string name="txt_reply_prefix">Re: </string>
+    <string name="txt_forward_prefix">Fwd: </string>
+
+    <string name="txt_navigate_new_app1">There is a new app on Play Store..</string>
+    <string name="txt_navigate_new_app2">Kindly navigate to it and install it now for using App</string>
+    <string name="txt_navigate_new_app3">Thank You</string>
+    <string name="btn_navigate_new_app">Navigate to new App</string>
+
+    <string name="drawer_open">Menu open</string>
+    <string name="drawer_close">Menu closed</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="txt_e_learn">Electronic Lessons</string>
+    <string name="txt_e_library">Electronic library</string>
+
+    <string name="url_smashing_android_ui">http://3.bp.blogspot.com/-aDUhP55KerE/UGbxmCkyKOI/AAAAAAAAKM8/Ms7Hs6Ln524/s1600/cover.png</string>
+    <string name="url_android_app_dev_for_dummies">https://raw.githubusercontent.com/emmby/android-for-dummies-v3/master/assets/book-cover.png</string>
+    <string name="url_beginning_android">http://eurodroid.com/pics/beginning_android_book.jpg</string>
+    <string name="url_professional_android_programming">http://devproconnections.com/site-files/devproconnections.com/files/uploads/2014/06/Riley%20DCM1061%20Pro_Android_book_cover.jpg</string>
+    <string name="url_android_programming_pshing_the_limits">http://whatpixel.com/images/2016/08/android-programming-pushing-the-limits.jpg</string>
+    <string name="url_100_q_and_a">http://www.lopez-manas.com/wp-content/uploads/2015/07/cover-Kopie-212x300.png</string>
+    <string name="url_android_programming_for_beginners">https://www.packtpub.com/sites/default/files/9781785883262.png</string>
+    <string name="url_android_programming">http://www.informit.com/ShowCover.aspx?isbn=0672336286</string>
+    <string name="title_smashing_android_ui">SMASHING Android UI</string>
+    <string name="title_android_app_dev_for_dummies">Android App Development for DUMMIES</string>
+    <string name="title_beginning_android">Beginning Android</string>
+    <string name="title_professional_android_programming">Professional Android Programming</string>
+    <string name="title_android_programming_pshing_the_limits">ANDROID PROGRAMMING PUSHING THE LIMITS</string>
+    <string name="title_100_q_and_a"><![CDATA[100 Questions & Answer]]></string>
+    <string name="title_android_programming_for_beginners">Android Programming for Beginners</string>
+    <string name="title_android_programming">Android Programming</string>
+
+    <string name="no_connection">No Internet Connection</string>
+    <string name="no_connection_title">Error in internet</string>
+    <string name="settings_button_text">Go to Settings</string>
+    <string name="cancel_button_text">Cancel</string>
+
+    <string name="txt_off_notifications">Mute Notifications</string>
+    <string name="txt_notifications">Notifications</string>
+
+    <string name="txt_skills_100">Perfected 100 %</string>
+    <string name="txt_skills_90_100">Perfected from 90 % to 100 %</string>
+    <string name="txt_skills_80_90">Perfected from 80 % to 90 %</string>
+    <string name="txt_skills_80">Perfected less than 80 %</string>
+
+    <string name="delete_msg_title">Delete Message</string>
+    <string name="delete_msg_message">Are you sure you want to delete this message and move it to Bin?</string>
+    <string name="delete_from_trash_message">Are you sure you want to delete this message forever?</string>
+
+    <string name="txt_no_data">There is no data in this page!!</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/txt_lang">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/listArray_lang"
+            android:entryValues="@array/listValues_lang"
+            android:key="lang"
+            android:summary="@string/lang_summary" />
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory android:title="@string/txt_notifications">-->
+        <!--<SwitchPreference-->
+            <!--android:defaultValue="false"-->
+            <!--android:key="notify_off"-->
+            <!--android:title="@string/txt_off_notifications" />-->
+    <!--</PreferenceCategory>-->
+
+</PreferenceScreen>
